@@ -5,23 +5,28 @@ Node module / API / Engine
 
 
 
-Windows installation
-====================
+## Windows config
+=================
 
-Install gitbash
-http://git-scm.com/download/win
+#### Install gitbash
 
-Curl - Setup proxy settings
-export http_proxy=http://proxy:port/
+  http://git-scm.com/download/win
+
+#### Curl - Setup proxy settings
+
+  export http_proxy=http://proxy:port/
 
 
-GIT - Setup proxy settings
-git config --global http.proxy http://proxy:port
+#### GIT - Setup proxy settings
 
-Get project sources
-git clone https://github.com/camelote/nascaleout.git
+  git config --global http.proxy http://proxy:port
 
-For home work, to unset the proxy
-git config –global http.proxy --unset
+#### Get project sources
+
+  git clone https://github.com/camelote/nascaleout.git
+
+#### For home work, to unset the proxy
+
+  git config –global http.proxy --unset
 
 
