@@ -27,6 +27,6 @@ Node module / API / Engine
 
 #### For home work, to unset the proxy
 
-  git config –global http.proxy --unset
+  git config --global --unset http.proxy
 
 
